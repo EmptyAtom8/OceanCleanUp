@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=EB+Garamond&family=Special+Elite&display=swap');
+//***************************************************************Narrow Screen Adaptation****************************************************************************/
+@media screen(max-width: 500px){
+
+	#sec_Caculator {
+				background-color:#blue;
+				box-shadow:7px 7px 20px rgb(0 0 0/.5);
+				width: 180px;
+				text-align: left;
+				border:solid;
+				border-radius:10pt;
+				position: relative;
+				
+				box-shadow:2px 7px #dede54e6;
+				
+				padding:5px;
+				}
+
+	div h2{display:none;}
+	nav li{list-style-type:none; }
+	.image{width:250px;
+		   height:250px;
+		   min-width: 50%;
+		   max-width: 100%;
+		   padding-top:0.5rem;
+		   padding-left:0.03rem;
+		   padding-right:0.03rem;		   
+		   margin-right: 3rem;
+		   margin-left:0.04rem;
+		   transform:rotate(-1.5deg);
+		   text-align:center;
+	   }
+	  .image2{ width:230px;
+			   height:290px;
+			   min-width: 50%;
+			   max-width: 85%;
+			   padding-top:0.5rem;
+			   padding-left:0.03rem;
+			   padding-right:0.03rem;			   
+			   margin-right:0.04rem;
+			   margin-left:2rem;
+			   transform:rotate(1.5deg);
+			   text-align:center;}
+	  .image3{ width:250px;
+			   height:200px;
+
+			   min-width: 50%;
+			   max-width: 100%;
+			   padding-top:0.5rem;
+			   padding-left:0.03rem;
+			   padding-right:0.03rem;
+			   margin-right:2rem;
+			   margin-left:1rem;
+			   transform:rotate(-1.5deg);
+			   text-align:center;
+	   } 
+	  .image4{ width:250px;
+			   height:250px;
+			   min-width: 50%;
+			   max-width: 100%;
+			   padding-top:0.5rem;
+			   padding-left:0.03rem;
+			   padding-right:0.03rem;
+			   margin-right:0.04rem;
+			   margin-left:0.04rem;
+			   transform:rotate(1.5deg);
+			   text-align:center;}  
+}
+	
+/********************************************Basic Layout and Structure**************************************/
+html{
+--calc-width: 30ch;
+}
+
+body{margin: auto;
+     margin-left: auto;
+     margin-right: auto;}	
+header {background: url("http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8018/ocean_cleanup/resources/ocean.jpg");
+		background-position: center;
+		background-size: auto;
+		background-attachment:fixed;
+		height : 8.5em;
+		padding-top:30px;
+		width:100%;
+        
+		}
+h1{text-align:center; 
+   margin-top:0;}
+div h2{display:none;}
+nav li{list-style-type:none; 
+	   display:inline; 
+	   }   
+nav a{text-decoration: none;}
+/************************navigation bar*******************/
+nav{position: relative; 
+	top:1rem; 
+	font-family: "Darker Grotesque", san-serif; 
+	padding:0px 0px 0px 0px;
+	border-width: 20px;
+	text-align:center;
+	margin-top: -1rem;
+	font-size:24px ;
+	
+	}
+
+/*******************main article position****************/
+main{max-width:70ch;
+	 margin: 0 auto 0 auto;
+}
+/*********************the video******************************/
+#video{
+		   position:relative;
+		   margin:0;
+		   height:0;
+		   padding-bottom:56.25%}
+iframe{height:100%;
+	   width:100%;
+	   position:absolute;
+	   top:0;
+	   left:0;
+	   }
+/*********************footer******************************/
+
+footer{background: url("http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8018/ocean_cleanup/resources/ocean.jpg");
+	   background-position: center;
+	   height:6em;
+	   text-align:center;
+	   }
+footer p {padding-top:2.7em;
+		  font-size:16pt}
+
+
+				
+}
+main{margin:auto;
+	 }
+/*******the table of decomposition time*******/
+#decom_table_title {border-top-style:solid;
+					border-bottom-style:solid;
+					border-width: 5px;
+}
+.decomposition table{margin-left: auto;
+					 margin-right: auto;
+					 border-collapse: collapse;
+					 
+}
+.decomposition td{border-width: 1px;
+				  border-bottom-style:solid;
+}
+/****************calculator arranment*********************/
+#houseSize{margin-left: 12px;
+			}
+
+
+
+/*****************************************************color, font, shadow, border****************************************************/
+
+
+
+
+p{font-family:"EB Garamond",san-serif;}
+h3{font-family:"Special Elite",san-serif;}
+h1{font-family: "Darker Grotesque", san-serif;
+   
+   font-size: 53pt;
+   margin-top: -2rem;
+   margin-bottom: -1rem;
+   }
+#title_the{font-size:20pt;
+		   color: white;
+		   text-shadow: 2px 2px black;
+}
+#title_ocean{font-weight:40;
+			 color: white;
+			 text-shadow: 2px 2px black;}
+#title_cleanup{
+			color:white;
+			text-shadow: 2px 2px black;
+}
+h2{color: black; 
+   font-size:20px ;
+   font-family: "Special Elite",san-serif;}
+#his_word{font-size:20pt;
+		  color:#2cdbd5;}
+
+
+/*******************the face picture & the river machine picture*****************************/
+.image{width:250px;
+	   height:250px;
+	   box-shadow: 10px 10px 5px black;
+
+	   min-width: 50%;
+	   max-width: 100%;
+	   padding-top:0.5rem;
+	   padding-left:0.03rem;
+	   padding-right:0.03rem;
+	   float:left;
+	   margin-right: 3rem;
+	   margin-left:0.04rem;
+	   transform:rotate(-1.5deg);
+	   text-align:center;
+	   }
+		  
+img{max-width:95%;
+	height:auto;
+	padding-bottom: 0.4rem;}
+
+.image2{width:230px;
+	   height:290px;
+	   box-shadow: 10px 10px 5px black;
+
+	   min-width: 50%;
+	   max-width: 85%;
+	   padding-top:0.5rem;
+	   padding-left:0.03rem;
+	   padding-right:0.03rem;
+	   float:right;
+	   margin-right:0.04rem;
+	   margin-left:2rem;
+	   transform:rotate(1.5deg);
+	   text-align:center;}
+.image3{width:250px;
+	   height:200px;
+	   box-shadow: 10px 10px 5px black;
+	   min-width: 50%;
+	   max-width: 100%;
+	   padding-top:0.5rem;
+	   padding-left:0.03rem;
+	   padding-right:0.03rem;
+	   float:left;
+	   margin-right:2rem;
+	   margin-left:1rem;
+	   transform:rotate(-1.5deg);
+	   text-align:center;
+	   }
+.image4{width:250px;
+	   height:250px;
+	   min-width: 50%;
+	   box-shadow: 10px 10px 5px black;
+	   max-width: 100%;
+	   padding-top:0.5rem;
+	   padding-left:0.03rem;
+	   padding-right:0.03rem;
+	   float:right;
+	   margin-right:0.04rem;
+	   margin-left:0.04rem;
+	   transform:rotate(1.5deg);
+	   text-align:center;}
+.image{border-width:1px;
+	 border-style:solid;
+	 border-radius:3pt;
+	 border-color:grey;
+	 
+	 }
+
+.image2{border-width:1px;
+		border-style:solid;
+		border-radius:3pt;
+		border-color:grey;
+	 
+	 }
+.image3{border-width:1px;
+		border-style:solid;
+		border-radius:3pt;
+		border-color:grey;
+	 
+	 }
+.image4{border-width:1px;
+		border-style:solid;
+		border-radius:3pt;
+		border-color:grey;}
+input{width:3em;}
+#sec_Caculator {text-align: left;
+				margin-left: 0rem;}
+#sec_Caculator {background-color:#dede54e6;
+				box-shadow:7px 7px 20px rgb(0 0 0/.5);
+				width: 180px;
+				text-align: left;
+				border:solid;
+				border-radius:10pt;
+				position: absolute;
+				right:0;
+				bottom:-2738px;
+				box-shadow:2px 7px #dede54e6;
+				margin-left: auto;
+				margin-right: auto;
+				padding:5px;
+}
+#sec_Caculator{max-width: var(--calc-width)
+}
+#reset{
+	width: fit-content;
+} 
+
