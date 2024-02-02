@@ -1,2 +1,2 @@
 # OceanCleanUp
-CSC8018 Netwoke Technology Demo
+CSC8018 Network Technology Demo
